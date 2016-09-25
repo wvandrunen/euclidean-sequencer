@@ -1,0 +1,21 @@
+{
+  "name": "euclidean-sequencer",
+  "version": "0.1.0",
+  "main": "euclidean-sequencer.js",
+  "description": "Euclidean Midi Sequncer",
+  "author": {
+    "name": "Wouter van Drunen",
+    "email": "wvandrunen@gmail.com"
+  },
+  "scripts": {
+    "start": "npm install && node euclidean-sequencer.js --trace-sync-io",
+    "dev": "nodemon"    
+  },
+  "dependencies": {
+    "midi": "0.9.5",    
+    "rx": "4.1.0"
+  },
+   "devDependencies": {    
+    "nodemon": "^1.9.2"
+  }
+}
